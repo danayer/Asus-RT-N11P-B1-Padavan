@@ -82,7 +82,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: release-${{ env.BUILD_TIMESTAMP }}
-        release_name: Padavan Xiaomi Mi Router 4 (${{ env.BUILD_TIMESTAMP }})
+        release_name: Padavan Asus RT-N11P B1 Padavan (${{ env.BUILD_TIMESTAMP }})
         body: ''
         draft: false
         prerelease: false
